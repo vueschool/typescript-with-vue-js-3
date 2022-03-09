@@ -1,6 +1,6 @@
 # Typescript with Vue.js 3 Course
 
-(!(Typescript with Vue.js 3 Course Image)[https://vueschool.io/media/857d72e82fb0a097ad62b39b616817b1/typescript-with-vue-js-3.jpg])[https://vueschool.io/courses/typescript-with-vue-js-3]
+[![Typescript with Vue.js 3 Course Image](https://vueschool.io/media/857d72e82fb0a097ad62b39b616817b1/typescript-with-vue-js-3.jpg)](https://vueschool.io/courses/typescript-with-vue-js-3)
 
 TypeScript is a super set of the JavaScript language that introduces static typing. In recent years, it's taken the JavaScript community by storm due to it's ability to create more maintainable and scalable code. In this course, we'll learn about: 
 
