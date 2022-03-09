@@ -16,7 +16,7 @@ TypeScript is a super set of the JavaScript language that introduces static typi
 
 As we go through the course, we'll build a working journal application together. This will give you the hands on experience and the know-how of working with TypeScript in a real Vue project, providing a more comprehensive understanding than one off examples and counter components.
 
-(Check it out today!)[https://vueschool.io/courses/typescript-with-vue-js-3]
+[Check it out today!](https://vueschool.io/courses/typescript-with-vue-js-3)
 
 ## How to Install
 ```sh
