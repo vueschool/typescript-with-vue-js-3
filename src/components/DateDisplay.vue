@@ -6,7 +6,7 @@ export default defineComponent({
     date: { type: Date, required: true },
   },
   computed: {
-    formatted() {
+    formatted(): string {
       return formatRelative(this.date, Date.now());
     },
   },
