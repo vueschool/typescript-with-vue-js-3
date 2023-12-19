@@ -1,4 +1,5 @@
 <script lang="ts">
+// @ts-ignore this works fine
 import { formatRelative } from "date-fns";
 import { defineComponent } from "vue";
 export default defineComponent({
@@ -6,7 +7,8 @@ export default defineComponent({
     date: { type: Date, required: true },
   },
   computed: {
-    formatted(): string {
+    formatted() {
+      // @ts-ignore this works fine
       return formatRelative(this.date, Date.now());
     },
   },

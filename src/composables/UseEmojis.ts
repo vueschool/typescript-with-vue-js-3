@@ -1,9 +1,9 @@
-import type Emoji from "@/types/Emoji";
-import type { Component } from "@vue/runtime-core";
+import type { Component } from "vue";
 import { reactive } from "vue";
 
-const files: { [key: string]: unknown } = import.meta.globEager(
-  "../assets/icons/emojis/*.svg"
+const files: { [key: string]: unknown } = import.meta.glob(
+  "../assets/icons/emojis/*.svg",
+  { eager: true },
 );
 
 export default function UseEmojis() {
@@ -18,7 +18,7 @@ export default function UseEmojis() {
   /**
    * Get a single emoji component by name
    */
-  const findEmoji = (name: Emoji | null) =>
+  const findEmoji = (name: string | null) =>
     emojis.find((emoji) => emoji.name === name)?.component;
 
   return { emojis, findEmoji };
